@@ -1,0 +1,13 @@
+.homeContainer{
+    color: #D93F3F;
+    margin: 20px 40%;
+}
+.inputHome{
+    height: 30px;
+}
+.buttonHome{
+    border: none;
+    border-radius: 5px;
+    width: 90px;
+    background-color: #D93F3F;
+}

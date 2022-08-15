@@ -1,0 +1,41 @@
+.pokedex{
+    color: aliceblue;
+    position: static;
+    background-color: #D93F3F;
+    box-shadow: 1px 8px 8px rgba(0, 0, 0, .5);
+    padding: 20px 0;
+}
+.pokedexInputs{
+    margin: 20px 0 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.inputPokedex{
+    padding-left: 10px;
+    width: 800px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+}
+.buttonPokedex{
+    width: 4rem;
+    height: 2.5rem;
+    margin-left: 10px;
+    border-radius: 10px;
+    background: #D93F3F;
+}
+.selectPokedex{
+    border-radius: 10px;
+}
+.pokemonCard {
+  background: linear-gradient(to bottom right, green, yellow);
+  border-radius: 10px;
+  display: inline-block;
+  margin: 10px;
+  width: 300px;
+  border: 2px solid black;
+}
+
+.pokemonCardInf {
+  display: flex;
+}
