@@ -10,10 +10,10 @@ function App() {
     <div className="App">
       <HashRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home/>} />
           <Route element={<ProtectedRoutes />}>
             <Route path="/Pokedex" element={<Pokedex />} />
-            <Route path="/PokemonDetail/:id" element={<PokemonDetail />} />
+            <Route path="/PokemonDetail/:id" element={<PokemonDetail/>} />
           </Route>
         </Routes>
       </HashRouter>

@@ -1,13 +1,17 @@
-.homeContainer{
-    color: #D93F3F;
-    margin: 20px 40%;
+.homeContainer {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
-.inputHome{
-    height: 30px;
+.formHome {
+  flex-direction: column;
+  align-items: center;
 }
-.buttonHome{
-    border: none;
-    border-radius: 5px;
-    width: 90px;
-    background-color: #D93F3F;
+.inputHome {
+  height: 30px;
+  margin-bottom: 5px;
+}
+.buttonHome {
+  border: none;
+  width: 90px;
 }

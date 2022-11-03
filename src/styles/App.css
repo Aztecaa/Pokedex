@@ -1,12 +1,38 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
 }
 .App {
   text-align: center;
 }
 body {
-  background-image: url("../img/BackgroundHome.jpg");
+  background: url('../img/background.jpg') no-repeat center center fixed;
   background-size: cover;
+}
+.d-flex {
+  display: flex;
+}
+.clr-red {
+  color: #d93f3f;
+}
+.bg-red {
+  background-color: #d93f3f;
+}
+.brd-10 {
+  border-radius: 10px;
+}
+.position-rel{
+  position: relative;
+}
+
+.input-style{
+  padding: 0 5px;
+  border: 3px ridge #e1e1e1;
+  outline: none;
+}
+.input-style:focus{
+  outline: none; 
+  background: linear-gradient(#02CDE9, #fff, #02CDE9);
 }
